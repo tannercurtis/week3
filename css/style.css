@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #222222;
+  line-height: 1.3;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+nav {
+	background-color: #222222;
+	padding: 6px;
+}
+
+#bar {
+	background-color: #222222;
+}
+
+nav a {
+	text-align: center;
+	text-decoration: none;
+	color: #eeeeee;
+	padding: 20px;
+	display: inline-block;
+}
+
+nav a:hover {
+	background-color: #1FA2E1;
+}
+
+header {
+	background: url("../images/photobanner.png") no-repeat center;
+	background-size: cover;
+	height: 370px;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+h1, h2, h3 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+#logo {
+	float: left;
+
+}
+
+#social {
+	float: right;
+
+}
+
+section {
+
+}
+
+blockquote {
+	width: 960px;
+	border: 1px solid #eeeeee;
+	margin: 20px auto;
+	font-style: italic;
+	font-family: Georgia, sans-serif;
+}
+
+blockquote p {
+	padding: 20px;
+}
+
+#boxes {
+	width: 960px;
+}
+
+article {
+	width: 290px;
+	display: inline-block; 
+	padding: 0 20px 30px 0;
+	margin: 0 auto;
+}
+
+article h2 {
+	padding-bottom: 20px;
+}
+
+article img {
+	border: 5px solid #eeeeee;
+}
+
+article p {
+	padding: 20px 0 20px;
+}
+
+article a {
+	color: #1FA2E1;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #222222;
+	overflow: auto;
+}
+
+.widget {
+	float: left;
+	width: 210px;
+	margin: 0 auto;
+	margin-right: 20px;
+	margin-bottom: 50px 
+}
+
+#middlewidget {
+	width: 400px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	color: #cccccc;
+	border-bottom: 1px dashed #666666;
+	padding-bottom: 15px;
+	margin-top: 20px;
+}
+
+li {
+	border-bottom: 1px dashed #666666;
+	padding: 8px 0;
+}
+
+ul {
+	margin-bottom: 50px;
+}
+
+footer a {
+	color: #1FA2E1;
+	text-decoration: none;
+}
+
+footer p {
+	color: #aaaaaa;
+}
+
+#bottom {
+	clear: left;
+	margin-bottom: 100px;
+}
+
+#copyright {
+	float: left;
+}
+
+/*can't figure out how to get this to algin more precisely with the widget 3 text*/
+#theme {
+	float: right;
+}
